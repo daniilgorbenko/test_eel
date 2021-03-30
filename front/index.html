@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script type="text/javascript" src="/eel.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="display-3 text-center mb-3">From</h1>
+                <form>
+                    <div class="form-group">
+                        <input type="number"
+                         id="rub-input"
+                         class="form-control form-control-lg"
+                         placeholder="Введите значение в RUB">
+                    </div>
+                </form>
+
+                <h1 class="display-4 text-center mt-4 mb-4">To</h1>
+                <div id="list-cur">
+                    <div class="input-group mt-2 mb-2">
+                        <span class="input-group-addon my-width">EUR</span>
+                        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </div>
+
+                    <div class="input-group mb-2">
+                        <span class="input-group-addon my-width">USD</span>
+                        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </div>
+
+                    <div class="input-group mb-2">
+                        <span class="input-group-addon my-width">JPY</span>
+                        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </div>
+
+                    <div class="input-group mb-2">
+                        <span class="input-group-addon my-width">NOK</span>
+                        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </div>
+
+                    <div class="input-group mb-2">
+                        <span class="input-group-addon my-width">PLN</span>
+                        <input type="number" class="form-control" aria-label="Amount (to the nearest dollar)">
+                    </div>
+
+                </div>
+
+                <button id="btn-sum" class="btn btn-info btn-lg btn-block" type="button">Рассчитать</button>
+
+
+            </div>
+
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
